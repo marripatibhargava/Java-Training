@@ -36,6 +36,81 @@ public class Main {
 
     }
 }
+
+
+..........
+Variables
+        String name = "Bhargava Krishna";
+        int age = 29;
+        String friend = "Vinay";
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+
+        //Try this: for how to use variables
+        System.out.println(name);
+
+        // Widening Casting
+        public class Main {
+            public static void main(String[] args) {
+                int myInt = 9;
+                double myDouble = myInt; // Automatic casting: int to double
+
+                System.out.println(myInt);      // Outputs 9
+                System.out.println(myDouble);   // Outputs 9.0
+            }
+        }
+        // Narrowing Casting
+        public class Main {
+            public static void main(String[] args) {
+                double myDouble = 9.78d;
+                int myInt = (int) myDouble; // Manual casting: double to int
+
+                System.out.println(myDouble);   // Outputs 9.78
+                System.out.println(myInt);      // Outputs 9
+            }
+}
+.............
+Strings
+
+        //String Length
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("The length of the txt string is: " + txt.length());
+
+        //toUpperCase() and toLowerCase():
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());
+
+        //indexOf()
+        String txt = "Please locate where 'locate' occurs!";
+        System.out.println(txt.indexOf("locate"));
+
+        //String Concatenation
+        String firstName = "John";
+        String lastName = "Doe";
+        System.out.println(firstName + " " + lastName);
+
+        //You can also use the concat() method to concatenate two strings:
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName.concat(lastName));
+
+        //Adding Numbers and Strings
+
+        //Two Numbers
+        int x = 10;
+        int y = 20;
+        int z = x + y;
+
+        //two strings
+        String x = "10";
+        String y = "20";
+        String z = x + y;
+
+        //add a number and a string
+        String x = "10";
+        int y = 20;
+        String z = x + y;
 .........................
 Arrays:
 
@@ -66,3 +141,7 @@ public class Main {
 
     }
 }
+
+
+
+
