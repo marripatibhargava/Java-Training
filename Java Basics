@@ -112,6 +112,118 @@ Strings
         int y = 20;
         String z = x + y;
 .........................
+Maths
+
+// To know the max/ min
+System.out.println(Math.max(5, 10));
+// To know the Squareroot 
+System.out.println(Math.sqrt(64));
+//Abosulute
+System.out.println(Math.abs(-4.7)); 
+//Random
+Math.random();
+// Random
+int randomNum = (int)(Math.random() * 101);  // 0 to 100
+    System.out.println(randomNum);
+.................
+Boolean
+
+//Boolean Values
+boolean isJavaFun = true;
+boolean isFishTasty = false;    
+System.out.println(isJavaFun);
+System.out.println(isFishTasty);
+
+//Boolean Expression
+int x = 10;
+int y = 9;
+System.out.println(x > y);
+
+.............
+Java If ... Else
+
+//The if Statement
+if (20 > 18) {
+      System.out.println("20 is greater than 18"); // obviously
+    }  
+    
+(or)
+
+int x = 20;
+int y = 18;
+if (x > y) {
+  System.out.println("x is greater than y");
+}
+
+//Else Statement
+
+int time = 20;
+if (time < 18) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+//The else if Statement
+
+int time = 22;
+if (time < 10) {
+  System.out.println("Good morning.");
+} else if (time < 20) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+//Short Hand If...Else
+int time = 20;
+String result = (time < 18) ? "Good day." : "Good evening.";
+System.out.println(result);
+
+......
+Java Switch
+
+int day = 4;
+switch (day) {
+  case 1:
+    System.out.println("Monday");
+    break;
+  case 2:
+    System.out.println("Tuesday");
+    break;
+  case 3:
+    System.out.println("Wednesday");
+    break;
+  case 4:
+    System.out.println("Thursday");
+    break;
+  case 5:
+    System.out.println("Friday");
+    break;
+  case 6:
+    System.out.println("Saturday");
+    break;
+  case 7:
+    System.out.println("Sunday");
+    break;
+}
+
+//The default Keyword
+int day = 4;
+switch (day) {
+  case 6:
+    System.out.println("Today is Saturday");
+    break;
+  case 7:
+    System.out.println("Today is Sunday");
+    break;
+  default:
+    System.out.println("Looking forward to the Weekend");
+}
+..........
+Java While Loop
+
+...........
 Arrays:
 
 package com.company;
