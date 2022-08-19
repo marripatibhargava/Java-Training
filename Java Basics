@@ -517,3 +517,117 @@ public class Main {
     }
   }
 }
+
+
+// Java Class
+
+//To create a class, use the keyword class:
+public class Main {
+  int x = 5;
+}
+
+//To create an object of Main, specify the class name, followed by the object name, and use the keyword new:
+
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+//Multiple Objects
+
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj1 = new Main();  // Object 1
+    Main myObj2 = new Main();  // Object 2
+    System.out.println(myObj1.x);
+    System.out.println(myObj2.x);
+  }
+}
+
+//Java Class Attributes
+//class attributes are variables within a class:
+
+public class Main {
+  int x = 5;
+  int y = 3;
+}
+
+//create an object of the Main class, with the name myObj. We use the x attribute on the object to print its value:
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+//Modify Attributes
+public class Main {
+  int x;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 40;
+    System.out.println(myObj.x);
+  }
+}
+
+//Change the value of x to 25:
+
+public class Main {
+  int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // x is now 25
+    System.out.println(myObj.x);
+  }
+}
+
+//If you don't want the ability to override existing values, declare the attribute as final:
+
+public class Main {
+  final int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // will generate an error: cannot assign a value to a final variable
+    System.out.println(myObj.x);
+  }
+}
+
+//Multiple Objects
+//If you create multiple objects of one class, you can change the attribute values in one object, without affecting the attribute values in the other:
+
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj1 = new Main();  // Object 1
+    Main myObj2 = new Main();  // Object 2
+    myObj2.x = 25;
+    System.out.println(myObj1.x);  // Outputs 5
+    System.out.println(myObj2.x);  // Outputs 25
+  }
+}
+
+//Multiple Attributes
+public class Main {
+  String fname = "John";
+  String lname = "Doe";
+  int age = 24;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+    System.out.println("Age: " + myObj.age);
+  }
+}
+
