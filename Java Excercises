@@ -1,0 +1,76 @@
+//Ways to read input from console in Java
+
+// Java program to demonstrate working of Scanner in Java
+import java.util.Scanner;
+
+class GetInputFromUser {
+	public static void main(String args[])
+	{
+		// Using Scanner for Getting Input from User
+		Scanner in = new Scanner(System.in);
+
+		String s = in.nextLine();
+		System.out.println("You entered string " + s);
+
+		int a = in.nextInt();
+		System.out.println("You entered integer " + a);
+
+		float b = in.nextFloat();
+		System.out.println("You entered float " + b);
+	}
+}
+.....
+// Java Program to print Multiplication of two floating
+// point Number.
+
+import java.io.*;
+
+class GFG {
+	public static void main(String[] args)
+	{
+
+		// f is to ensures that numbers are float DATA TYPE
+		float f1 = 1.5f;
+		float f2 = 2.0f;
+
+		// to store the multiplied value
+		float p = f1 * f2;
+
+		// to print the product
+		System.out.println("The product is: " + p);
+	}
+}
+......
+
+// Java Program to Swap Two values using third variable
+// using temp variable
+
+// Importing generic libraries
+import java.util.*;
+
+class GFG {
+
+	// Function to swap two numbers
+	// Using temporary variable
+	static void swapValuesUsingThirdVariable(int m, int n)
+	{
+		// Swapping the values
+		int temp = m;
+		m = n;
+		n = temp;
+		System.out.println("Value of m is " + m
+						+ " and Value of n is " + n);
+	}
+
+	// Main driver code
+	public static void main(String[] args)
+	{
+		// Random integer values
+		int m = 9, n = 5;
+
+		// Calling above function to
+		// reverse the numbers
+		swapValuesUsingThirdVariable(m, n);
+	}
+}
+...........
