@@ -1,18 +1,13 @@
 
-# Python Programming Practice Project
+# GeekforGeeks Java Programming Examples
 
-We will try out different python related projects
-
-## What can you learn
-
-In this project we will practice basics of python programming
 ## Index
 
 
-| FirstName     | LastName      | City     |
-| ------------- | ------------- | -------- |
-| John          | Test1         | NewYork  |
-| Bob           | Test2         | Toronto  |
+| Topics                  | Link      
+| -------------           | ------------- 
+| Basic Programs          | [Link]()         
+| List Programs           | [Link]()         
 
 
 # Hi, I'm Bhargava Krishna Marripati! 👋
